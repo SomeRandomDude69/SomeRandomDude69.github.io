@@ -50,8 +50,8 @@ mark{
   background-color: lightgreen;
 }
 
-/* css for the images on the left for the about page */
-#left{
+/* css for the image of william for the about page */
+#william{
 float: left;
 width: 200px;
 padding-top: 20px;
@@ -59,8 +59,8 @@ margin-left: 30px;
 margin-right: 20px;
 }
 
-/* css for the images on the right for the about page */
-#right{
+/* css for the image of tianyi for the about page */
+#tianyi{
 float: right;
 width: 200px;
 padding-top: 20px;
@@ -68,17 +68,43 @@ margin-left: 20px;
 margin-right: 30px;
 }
 
-/* css for names on the about page */
+/* css for the image of eric for the about page */
+#eric{
+float: left;
+width: 200px;
+padding-top: 20px;
+margin-left: 30px;
+margin-right: 20px;
+}
+
+/* css for names on the about page at the left */
 .name{
-font-size: 40px;
+font-size: 70px;
 font-family: monospace;
 margin-left: 30px;
 }
 
-/* css for the description on the about page */
+/* css for the description on the about page at the left */
 .description{
-font-size: 20px;
+font-size: 30px;
 font-family: inherit;
 margin-left: 30px;
 padding-bottom: 40px;
+}
+
+/* css for names on the about page at the right */
+.nameleft{
+font-size: 70px;
+font-family: monospace;
+margin-left: 30px;
+text-align: right;
+}
+
+/* css for the description on the about page at the right */
+.descriptionleft{
+font-size: 30px;
+font-family: inherit;
+margin-left: 30px;
+padding-bottom: 40px;
+text-align: right;
 }
