@@ -1,3 +1,8 @@
+/* css for the logo text*/
+#logo{
+  width: 50px;
+}
+
 /* css for the thumbnail text*/
 .BackgroundText{
   font-size: 42px;
@@ -27,6 +32,7 @@ mark{
   margin-top: 10px;
   font-size: 30px;
   font-family: Monaco;
+  padding-bottom: 30px;
 }
 
 /* css for the whole home page, except for the navbar */
