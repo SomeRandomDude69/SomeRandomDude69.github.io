@@ -1,0 +1,36 @@
+.BackgroundText{
+  font-size: 42px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+  font-family: "Lucida Console";
+}
+
+#Background{
+  width: 100%;
+}
+
+#video{
+}
+
+.text{
+  font-size: 30px;
+  color: black;
+  font-family: Monaco;
+  margin-bottom: 10px;
+}
+
+.link{
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: Monaco;
+}
+
+.content{
+  background-image: url('Photos/Thumbnail.png');
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 3px;
+}
