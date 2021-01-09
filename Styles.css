@@ -1,3 +1,4 @@
+/* css for the thumbnail text*/
 .BackgroundText{
   font-size: 42px;
   padding-top: 30px;
@@ -7,13 +8,13 @@
   font-family: "Lucida Console";
 }
 
-#Background{
-  width: 100%;
+/* css for the background text, hightlights it in yellow*/
+mark{
+  background-color: yellow;
+  color: black;
 }
 
-#video{
-}
-
+/* css for: "how the program works" */
 .text{
   font-size: 30px;
   color: black;
@@ -21,16 +22,57 @@
   margin-bottom: 10px;
 }
 
+/* css for the github link*/
 .link{
   margin-top: 10px;
   font-size: 30px;
   font-family: Monaco;
 }
 
+/* css for the whole home page, except for the navbar */
 .content{
   background-image: url('Photos/Thumbnail.png');
   background-attachment: fixed;
   background-size: cover;
   padding-left: 30px;
   padding-right: 3px;
+}
+
+/*css for the whole about page, except for the navbar */
+.about{
+  padding-top: 30px;
+  background-color: lightgreen;
+}
+
+/* css for the images on the left for the about page */
+#left{
+float: left;
+width: 200px;
+padding-top: 20px;
+margin-left: 30px;
+margin-right: 20px;
+}
+
+/* css for the images on the right for the about page */
+#right{
+float: right;
+width: 200px;
+padding-top: 20px;
+margin-left: 20px;
+margin-right: 30px;
+}
+
+/* css for names on the about page */
+.name{
+font-size: 40px;
+font-family: monospace;
+margin-left: 30px;
+}
+
+/* css for the description on the about page */
+.description{
+font-size: 20px;
+font-family: inherit;
+margin-left: 30px;
+padding-bottom: 40px;
 }
